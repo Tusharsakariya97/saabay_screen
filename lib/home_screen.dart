@@ -22,7 +22,6 @@ class _HomeScreenState extends State<HomeScreen> {
                   Container(
                     width: 350,
                     height: 130,
-                    decoration: BoxDecoration(boxShadow: ),
                   ),
                 ],
               ),

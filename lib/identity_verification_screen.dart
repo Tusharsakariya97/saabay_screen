@@ -142,13 +142,13 @@ class _IdentityVerificationState extends State<IdentityVerification> {
               width: 370,
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(25),
-                color: Color(0xFFFFE2E2E2),
+                color: Color(0xFF4C002E),
               ),
               child: Align(
                 alignment: Alignment.center,
                 child: Text(
                   "continue",
-                  style: TextStyle(color: Color(0xFFF7C7C7C), fontSize: 20),
+                  style: TextStyle(fontSize: 20, color: Colors.white),
                 ),
               ),
             ),

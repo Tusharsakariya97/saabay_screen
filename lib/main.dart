@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'map_screen.dart';
+import 'package:saabay/get_ready_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MapScreen(),
+      home: const GetReadyScreen(),
     );
   }
 }

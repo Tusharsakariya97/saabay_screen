@@ -14,7 +14,7 @@ class _GetReadyScreenState extends State<GetReadyScreen> {
     return Scaffold(
       body: SafeArea(
           child: Padding(
-        padding: const EdgeInsets.all(7.0),
+        padding: const EdgeInsets.only(left: 15),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
@@ -68,7 +68,7 @@ class _GetReadyScreenState extends State<GetReadyScreen> {
             ),
             Container(
               width: 400,
-              height: 90,
+              height: 70,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
@@ -95,10 +95,52 @@ class _GetReadyScreenState extends State<GetReadyScreen> {
                             ],
                           ),
                           SizedBox(
-                            width: 25,
+                            width: 82,
                           ),
-                          Image.asset("assets/images/Frame 384.png"),
+                          Image.asset("assets/images/Mask group.png"),
+                          Image.asset("assets/images/Group 298.png"),
+                          Image.asset("assets/images/Group 299.png"),
                         ]),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              width: 400,
+              height: 70,
+              child: Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Image.asset("assets/images/card-wallet.png"),
+                  Padding(
+                    padding: const EdgeInsets.only(top: 15),
+                    child: Column(
+                      children: [
+                        Row(children: [
+                          Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Text(
+                                " Case",
+                                style: TextStyle(
+                                  fontSize: 16,
+                                ),
+                              ),
+                              Text(
+                                "Your mode of payment",
+                                style: TextStyle(
+                                    fontSize: 12, color: Color(0xFF7C7C7C)),
+                              )
+                            ],
+                          ),
+                          SizedBox(
+                            width: 150,
+                          ),
+                          Image.asset("assets/images/Frame 406.png"),
+                        ]),
+                        Text("")
                       ],
                     ),
                   ),
